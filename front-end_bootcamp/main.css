@@ -1,0 +1,366 @@
+/*  GENERAL */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: Betty;
+    src: url("font/Thinking_of_Betty.ttf");
+}
+
+h1,
+h2,
+h3 {
+    font-family: Betty, 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/*
+div{
+    min-height: 100px;
+}
+*/
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.spacer {
+    height: 5px;
+    margin-bottom: 5%;
+}
+
+.over-layer {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.over-layer h1 {
+    position: relative;
+    top: 40%;
+    font-size: 130px;
+    line-height: 130px;
+}
+
+.anchor {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
+/* NAVIGATION */
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    z-index: 2000;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.navbar-nav li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.sep {
+    margin-top: 20px;
+}
+
+.background-color {
+    background-color: transparent;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+}
+
+ul li {
+    text-transform: uppercase;
+}
+
+.sep {
+    margin: 15px 8px 0 8px;
+}
+
+.navbar > .active > a {
+    color: #fff;
+}
+
+
+/* INTRO SECTION */
+
+.back-img {
+    width: 100%;
+    height: 800px;
+    background-color: dimgrey;
+    position: relative;
+    z-index: 10;
+}
+
+.main-img {
+    background: url(img/main-img.jpg) no-repeat 50% 0 fixed;
+    height: 100%;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 10;
+}
+
+.arrow {
+    width: 50px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 10px 5px;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+}
+
+/* RANDOM BEER SECTION */
+
+.random-beer-sec {
+    background-color: #fff;
+    min-height: 400px;
+    text-align: left;
+    padding-bottom: 60px;
+
+}
+
+.random-beer-sec h4,
+.random-beer-sec p {
+    color: #000000;
+    text-align: left;
+}
+
+.beer_info {
+    display: inline-block;
+    max-width: 400px;
+    vertical-align: top;
+}
+
+#photo img {
+    height: 600px;
+    width: auto;
+}
+
+#beer_color {
+    border-color: #fff;
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    height: 60px;
+    width: 200px;
+}
+
+
+/* ABOUT */
+
+.box {
+    padding: 50px 80px;
+}
+
+.box h3 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+/* SECOND PARALLAX IMAGE */
+
+.bg-height {
+    height: 600px;
+}
+
+.scnd-par-img {
+    background: url(img/second-img-par.jpg) no-repeat 50% 0 fixed;
+    height: 100%;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* TEAM */
+
+.imagecontainer {
+    text-align: center;
+}
+
+#picturewiebe,
+#picturebob,
+#pictureciro,
+#picturejulian {
+    display: inline-block;
+    width: 150px;
+    margin: 35px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #212121;
+    min-height: 180px;
+    width: 100%;
+}
+
+.contact-text {
+    margin-top: 50px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-nav li a:hover,
+    .navbar-nav li a:focus {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+    .navbar {
+        padding: 40px;
+        background-color: transparent;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+    .desktop-nav {
+        display: inline-block;
+    }
+
+    .navbar-nav li a {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .navbar-nav li a:hover,
+    .navbar-nav li a:focus,
+    .navbar-nav li a:active,
+    .navbar-nav > .active > a {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+@media (min-width: 1024px) {
+    .barley-img {
+        display: none;
+    }
+    .barley-img-square {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .barley-img {
+        display: inline-block;
+    }
+    .barley-img-square {
+        display: none;
+    }
+    .over-layer h1 {
+        top: 30%;
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .back-img {
+        height: 700px;
+    }
+    .over-layer h1 {
+        top: 30%;
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+    }
+    .desktop-nav {
+        display: none;
+    }
+
+
+    #navbar,
+    .navbar,
+    .background-color {
+        background-color: #212121 !important;
+    }
+    #navbar,
+    .navbar-nav > li > a {
+        color: #fff;
+    }
+    #navbar {
+        padding: 0;
+    }
+    #navbar ul {
+        width: 100%;
+    }
+    .li:active,
+    .li:focus {
+        color: #fff;
+        background-color: #595959;
+    }
+    .sep {
+        display: none !important;
+    }
+
+    .contact-text {
+        margin-left: 100px;
+        margin-bottom: 60px;
+}
+
+
+}
