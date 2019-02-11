@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#frontPageCanvas {
+    position: absolute;
+    left: 0;
+}
+
+#topWrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    font-size: 15em;
+    color: white;
+    
+    text-align: center;
+    position: relative;
+    z-index:9999;
+
+    top: 50%;
+    transform: translateY(-50%);
+    margin:auto;
+}
