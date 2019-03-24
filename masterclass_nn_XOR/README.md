@@ -9,7 +9,8 @@ This repo is for the masterclass I give at April 23 in Mexico city.
 1. Show use cases for Neural Networks
 2. Explain structure: 
 ..* Why is it called a Neural Network?
-  * Show how it's heavily based on mathmatics
+
+  Show how it's heavily based on mathmatics
   * How does a network learn?
 3. Explain the simple XOR example
 4. Open up python file and explain what is needed:
