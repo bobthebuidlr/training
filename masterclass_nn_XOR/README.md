@@ -1,9 +1,9 @@
 # Masterclass Neural Network - XOR 
-This repo is for the masterclass I give at April 23 in Mexico city.
+In this repo the code and presentation can be found for the Masterclass for starting with Neural Networks.
 
 ## Goal
 1. Provide general insight into how a neural network functions.
-2. Enable students to write a very primitive neural network, based on XOR categorization
+2. Enable to write a very primitive neural network, based on XOR categorization (without ML libraries)
 
 ## Outline
 1. Show use cases for Neural Networks
